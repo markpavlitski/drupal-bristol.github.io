@@ -4,7 +4,7 @@ ENV="prod"
 DATE=`date`
 CURRENT_BRANCH=`git symbolic-ref --short HEAD`
 REMOTE_NAME=`git config --get branch.${CURRENT_BRANCH}.remote`
-REMOTE_BRANCH="gh-pages"
+REMOTE_BRANCH="master"
 REPO_URL=`git config --get remote.${REMOTE_NAME}.url`
 DEPLOY_DIR=".deploy-github-pages"
 
