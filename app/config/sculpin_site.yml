@@ -1,2 +1,321 @@
 ---
-title: Drupal Bristol
+title: Bristol DUG
+subtitle: The Bristol Drupal User Group.
+email: info@drupalbristol.org.uk
+default_date_format: jS F, Y
+fuzzy_date_format: F Y
+
+events:
+    - title: First Meetup!
+      date: 2011-04-19
+      link: https://groups.drupal.org/node/141239
+      location: { name: Sift Digital, website: http://www.siftdigital.com/ }
+
+    - title: South West User Group May Meetup
+      date: 2011-05-25
+      link: https://groups.drupal.org/node/147324
+      location: { name: 'Proctor & Stevenson', website: http://www.proctors.co.uk }
+
+    - title: Bristol & South West September Meetup
+      date: 2011-09-14
+      link: https://groups.drupal.org/node/173879
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: October Meetup
+      date: 2011-10-05
+      link: https://groups.drupal.org/node/176284
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: November Meetup
+      date: 2011-11-02
+      link: https://groups.drupal.org/node/182259
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: Christmas Meal
+      date: 2011-12-07
+      link: https://groups.drupal.org/node/193243
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: January Meetup
+      date: 2012-01-11
+      link: https://groups.drupal.org/node/199703
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: February Meetup
+      date: 2012-02-01
+      link: https://groups.drupal.org/node/206338
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: March Meetup
+      date: 2012-03-07
+      link: https://groups.drupal.org/node/210443
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: April Meetup
+      date: 2012-04-04
+      link: https://groups.drupal.org/node/220599
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: May Meetup
+      date: 2012-05-02
+      link: https://groups.drupal.org/node/227113
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: June Meetup
+      date: 2012-06-06
+      link: https://groups.drupal.org/node/235728
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: July Meetup
+      date: 2012-07-04
+      link: https://groups.drupal.org/node/240708
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: August Meetup
+      date: 2012-08-01
+      link: https://groups.drupal.org/node/245453
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: September Meetup
+      date: 2012-09-05
+      link: https://groups.drupal.org/node/250583
+      location: { name: The Elephant, website: http://www.theelephantbristol.co.uk/ }
+
+    - title: October Meetup
+      date: 2012-10-03
+      link: https://groups.drupal.org/node/258433
+      location: { name: Mothers Ruin, website: http://mothersruinbristol.weebly.com/ }
+
+    - title: November Meetup
+      date: 2012-11-07
+      link: https://groups.drupal.org/node/265613
+      location: { name: Llandoger Trow }
+
+    - title: Christmas Meal
+      date: 2012-12-05
+      link: https://groups.drupal.org/node/266853
+      location: { name: The Urban Wood, website: http://www.theurbanwood.com/ }
+
+    - title: January Social
+      date: 2013-01-09
+      link: https://groups.drupal.org/node/274088
+      location: { name: Llandoger Trow }
+
+    - title: February Social
+      date: 2013-02-06
+      link: https://groups.drupal.org/node/279423
+      location: { name: Llandoger Trow }
+
+    - title: March Social
+      date: 2013-03-06
+      link: https://groups.drupal.org/node/284988
+      location: { name: Llandoger Trow }
+
+    - title: April Talks
+      date: 2013-04-03
+      link: https://groups.drupal.org/node/288753
+      location: { name: Golden Guinnea, website: http://www.thegoldenguinea.co.uk/ }
+
+    - title: May Talks
+      date: 2013-05-01
+      link: https://groups.drupal.org/node/292838
+      location: { name: Golden Guinnea, website: http://www.thegoldenguinea.co.uk/ }
+
+    - title: June Social
+      date: 2013-06-05
+      link: https://groups.drupal.org/node/298238
+      location: { name: Llandoger Trow }
+
+    - title: July Social
+      date: 2013-07-03
+      link: https://groups.drupal.org/node/305688
+      location: { name: Llandoger Trow }
+
+    - title: August Social 1
+      date: 2013-08-07
+      link: https://groups.drupal.org/node/306538
+      location: { name: Llandoger Trow }
+
+    - title: August Social 2
+      date: 2013-08-21
+      link: https://groups.drupal.org/node/311328
+      location: { name: Llandoger Trow }
+
+    - title: September Social
+      date: 2013-09-04
+      link: https://groups.drupal.org/node/314008
+      location: { name: Llandoger Trow }
+
+    - title: September Lightning Talks
+      date: 2013-09-18
+      link: https://groups.drupal.org/node/315248
+      location: { name: Sift Digital, website: http://www.siftdigital.com/ }
+
+    - title: October Social 1
+      date: 2013-10-02
+      link: https://groups.drupal.org/node/330288
+      location: { name: Llandoger Trow }
+
+    - title: October Social 2
+      date: 2013-10-16
+      link: https://groups.drupal.org/node/348103
+      location: { name: Llandoger Trow }
+
+    - title: November Social 1
+      date: 2013-11-06
+      link: https://groups.drupal.org/node/364633
+      location: { name: Llandoger Trow }
+
+    - title: November Social 2
+      date: 2013-11-20
+      link: https://groups.drupal.org/node/375018
+      location: { name: Llandoger Trow }
+
+    - title: December Social
+      date: 2013-12-18
+      link: https://groups.drupal.org/node/390013
+      location: { name: Llandoger Trow }
+
+    - title: January Social 1
+      date: 2014-01-08
+      link: https://groups.drupal.org/node/394013
+      location: { name: Llandoger Trow }
+
+    - title: January Social 2
+      date: 2014-01-22
+      link: https://groups.drupal.org/node/398343
+      location: { name: Llandoger Trow }
+
+    - title: February Social 1
+      date: 2014-02-05
+      link: https://groups.drupal.org/node/404418
+      location: { name: Llandoger Trow }
+
+    - title: February Social 2
+      date: 2014-02-19
+      link: https://groups.drupal.org/node/409168
+      location: { name: Llandoger Trow }
+
+    - title: March Social 1
+      date: 2014-03-05
+      link: https://groups.drupal.org/node/411858
+      location: { name: Llandoger Trow }
+
+    - title: March Social 2
+      date: 2014-03-20
+      link: https://groups.drupal.org/node/414578
+      location: { name: Llandoger Trow }
+
+    - title: April Talks
+      date: 2014-04-02
+      link: https://groups.drupal.org/node/414858
+      location: { name: Sift Digital, website: http://www.siftdigital.com/ }
+
+    - title: April Social
+      date: 2014-04-16
+      link: https://groups.drupal.org/node/418748
+      location: { name: Llandoger Trow }
+
+    - title: May Social
+      date: 2014-05-21
+      link: https://groups.drupal.org/node/422838
+      location: { name: Llandoger Trow }
+
+    - title: June Social
+      date: 2014-06-04
+      link: https://groups.drupal.org/node/425553
+      location: { name: Llandoger Trow }
+
+    - title: July Talks
+      date: 2014-07-02
+      link: https://groups.drupal.org/node/428593
+      location: { name: Sift Digital, website: http://www.siftdigital.com/ }
+
+    - title: August Social
+      date: 2014-08-06
+      link: https://groups.drupal.org/node/436498
+      location: { name: Llandoger Trow }
+
+    - title: September Social
+      date: 2014-09-17
+      link: https://groups.drupal.org/node/441683
+      location: { name: Llandoger Trow }
+
+    - title: October Social
+      date: 2014-10-15
+      link: https://groups.drupal.org/node/445318
+      location: { name: Llandoger Trow }
+
+    - title: November Social
+      date: 2014-11-19
+      link: https://groups.drupal.org/node/449548
+      location: { name: Llandoger Trow }
+
+    - title: Christmas Drinks
+      date: 2014-12-17
+      link: https://groups.drupal.org/node/450923
+      location: { name: Llandoger Trow }
+
+    - title: January Social
+      date: 2015-01-21
+      link: https://groups.drupal.org/node/453788
+      location: { name: Llandoger Trow }
+
+    - title: February Social
+      date: 2015-02-18
+      link: https://groups.drupal.org/node/457373
+      location: { name: Llandoger Trow }
+
+    - title: March Social
+      date: 2015-03-18
+      link: https://groups.drupal.org/node/461098
+      location: { name: Llandoger Trow }
+
+    - title: April Social
+      date: 2015-04-15
+      link: https://groups.drupal.org/node/465098
+      location: { name: Llandoger Trow }
+
+    - title: May Social
+      date: 2015-05-20
+      link: https://groups.drupal.org/node/465298
+      location: { name: Llandoger Trow }
+
+    - title: June Social
+      date: 2015-06-17
+      link: https://groups.drupal.org/node/465303
+      location: { name: Llandoger Trow }
+
+    - title: July Social
+      date: 2015-07-15
+      link: https://groups.drupal.org/node/473208
+      location: { name: Llandoger Trow }
+
+    - title: DrupalCamp Bristol
+      date: 2015-07-03
+      link: http://2015.drupalcampbristol.co.uk
+      fuzzy_date: yes
+      location: { name: St. George’s / University of Bristol }
+
+    - title: August Talks
+      date: 2015-08-21
+      link: https://groups.drupal.org/node/475948
+      location: { name: Sift Digital, website: http://www.siftdigital.com/ }
+
+    - title: September Social
+      link: https://groups.drupal.org/node/478953
+      date: 2015-09-16
+      location: { name: Small Bar, website: http://www.smallbarbristol.com/ }
+
+    - title: October Talks
+      date: 2015-10-21
+      link: https://groups.drupal.org/node/478958
+      location: { name: Sift Digital, website: http://www.siftdigital.com/ }
+
+    - title: December Christmas Thing?
+      date: 2015-12
+      fuzzy_date: yes
+      link: https://groups.drupal.org/node/478963
+
+    - title: January Lightning Talks
+      date: 2016-01-20
