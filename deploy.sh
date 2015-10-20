@@ -3,24 +3,33 @@
 ENV="prod"
 DATE=`date`
 CURRENT_BRANCH=`git symbolic-ref --short HEAD`
-REMOTE_NAME=`git config --get branch.$(git current-branch).remote`
+REMOTE_NAME=`git config --get branch.${CURRENT_BRANCH}.remote`
 REMOTE_BRANCH="gh-pages"
+REPO_URL=`git config --get remote.${REMOTE_NAME}.url`
+DEPLOY_DIR=".deploy-github-pages"
+
+echo ${DATE}
+
+# Clone a fresh version of the repo into a new directory.
+git clone ${REPO_URL} --quiet --branch ${REMOTE_BRANCH} ${DEPLOY_DIR}
 
 # Push the current branch.
 git push ${REMOTE_NAME} ${CURRENT_BRANCH}
 
-# Delete the existing output.
+# Delete the existing output and re-generate the site.
 rm -rf output_${ENV}/
+sculpin generate --quiet --env ${ENV}
 
-# Re-generate the site.
-sculpin generate -e ${ENV} -q
+# Copy the latest changes into the deploy directory.
+cp -R output_prod/ ${DEPLOY_DIR}
 
-cp -R .git output_${ENV}/
-
-pushd output_${ENV}/
+pushd ${DEPLOY_DIR}
 # Commit the changes with the datestamp, and force-push the changes.
-git checkout -B gh-pages && git stash
-git fetch && git rebase ${REMOTE_NAME}/${REMOTE_BRANCH}
-git stash pop && git add --all && git commit -m "${DATE}"
-git push -f ${REMOTE_NAME} ${REMOTE_BRANCH}
+git add --all
+git status
+git commit --quiet -m "${DATE}"
+git push --force ${REMOTE_NAME} ${REMOTE_BRANCH}
 popd
+
+# Remove the deploy directory.
+rm -rf ${DEPLOY_DIR}
