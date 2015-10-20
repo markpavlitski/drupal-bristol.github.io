@@ -1,0 +1,9 @@
+{% if event.link %}<a href="{{ event.link }}">{% endif %}
+{{ event.title }}
+{% if event.link %}</a>{% endif %}
+
+- {{ event.date|date(event.fuzzy_date ? site.fuzzy_date_format : site.default_date_format) }}
+
+- {% if event.location.website %}<a href="{{ event.location.website }}">{% endif %}
+{{ event.location.name|default('TBC') }}
+{% if event.location.website %}</a>{% endif %}
