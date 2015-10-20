@@ -3,11 +3,21 @@
         <head>
             <title>{{ site.title }}</title>
             <link rel="stylesheet" type="text/css" href="{{ site.url }}/components/bootstrap/css/bootstrap.min.css">
+            <style>
+                .container a {
+                    text-decoration: none;
+                }
+                .container a:link {
+                    border-bottom: 1px solid;
+                }
+            </style>
+            <meta charset="utf8">
         </head>
         <body>
             <div class="container">
                 <div class="page-header">
                     <h1>{{ site.title }}</h1>
+                    <p>{{ site.subtitle }}</p>
                 </div>
                 {% block content %}{% endblock %}
             </div>
