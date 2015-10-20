@@ -2,3 +2,5 @@
 imports:
     - sculpin_site.yml
 url: http://www.drupalbristol.org.uk
+google_analytics_tracking_id: UA-69117812-1
+
