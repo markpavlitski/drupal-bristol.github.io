@@ -1,0 +1,32 @@
+---
+venues:
+    sift:
+        name: Sift Digital
+        website: http://www.siftdigital.com/
+
+    proctors:
+        name: 'Proctor & Stevenson'
+        website: http://www.proctors.co.uk
+
+    the_elephant:
+        name: The Elephant
+        website: http://www.theelephantbristol.co.uk/
+
+    llandoger:
+        name: Llandoger Trow
+
+    mothers_ruin:
+        name: Mothers Ruin
+        website: http://mothersruinbristol.weebly.com/
+
+    urban_wood:
+        name: The Urban Wood
+        website: http://www.theurbanwood.com/
+
+    golden_guinnea:
+        name: Golden Guinnea
+        website: http://www.thegoldenguinea.co.uk/
+
+    small_bar:
+        name: Small Bar
+        website: http://www.smallbarbristol.com/

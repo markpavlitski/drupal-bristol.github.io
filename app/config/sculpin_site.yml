@@ -6,6 +6,7 @@ default_date_format: 'jS F, Y'
 fuzzy_date_format: F Y
 
 imports:
+    - venues.yml
     - events.yml
 
 sponsors:
