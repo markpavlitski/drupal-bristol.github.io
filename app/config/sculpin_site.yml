@@ -6,7 +6,7 @@ default_date_format: jS F, Y
 fuzzy_date_format: F Y
 
 sponsors:
-    - { name: Sift Digital, website: http://www.siftdigital.com }
+    - { name: Sift, website: http://www.sift.com }
     - { name: Microserve, website: https://microserve.io }
     - { name: Halo Media, website: http://wearehalo.co.uk }
 
