@@ -5,6 +5,11 @@ email: info@drupalbristol.org.uk
 default_date_format: jS F, Y
 fuzzy_date_format: F Y
 
+sponsors:
+    - { name: Sift Digital, website: http://www.siftdigital.com }
+    - { name: Microserve, website: https://microserve.io }
+    - { name: Halo Media, website: http://wearehalo.co.uk }
+
 events:
     - title: First Meetup!
       date: 2011-04-19

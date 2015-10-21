@@ -1,0 +1,10 @@
+<h2>Sponsors</h2>
+<ul>
+    {% for sponsor in site.sponsors %}
+        <li>
+            {% if sponsor.website %}<a href="{{ sponsor.website }}">{% endif %}
+            {{ sponsor.name }}
+            {% if sponsor.website %}</a>{% endif %}
+        </li>
+    {% endfor %}
+</ul>
