@@ -9,6 +9,11 @@ imports:
     - events.yml
 
 sponsors:
-    - { name: Sift, website: http://www.sift.com }
-    - { name: Microserve, website: https://microserve.io }
-    - { name: Halo Media, website: http://wearehalo.co.uk }
+    - name: Sift
+      website: http://www.sift.com
+
+    - name: Microserve
+      website: https://microserve.io
+
+    - name: Halo Media
+      website: http://wearehalo.co.uk
